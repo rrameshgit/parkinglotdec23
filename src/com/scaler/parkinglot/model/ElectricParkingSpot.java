@@ -1,4 +1,6 @@
 package com.scaler.parkinglot.model;
 
-public class ElectricParkingSpot {
+public class ElectricParkingSpot extends ParkingSpot {
+    private ElectricCharger electricCharger;
+
 }

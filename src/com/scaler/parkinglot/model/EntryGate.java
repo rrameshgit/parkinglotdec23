@@ -1,4 +1,5 @@
 package com.scaler.parkinglot.model;
 
-public class EntryGate {
+public class EntryGate extends Gate{
+    private DisplayBoard displayBoard;
 }

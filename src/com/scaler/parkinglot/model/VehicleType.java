@@ -1,6 +1,6 @@
 package com.scaler.parkinglot.model;
 
-public enum SpotType {
+public enum VehicleType {
     SMALL,
     MEDIUM,
     LARGE,

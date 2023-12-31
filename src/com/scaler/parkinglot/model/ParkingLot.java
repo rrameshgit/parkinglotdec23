@@ -1,6 +1,11 @@
 package com.scaler.parkinglot.model;
 import java.util.List;
 public class ParkingLot extends BaseModel{
+
+    private String address ;
+    private List<ParkingFloor> parkingFloors ;
+    private List<Gate> gates;
+
     public String getAddress() {
         return address;
     }
@@ -24,9 +29,5 @@ public class ParkingLot extends BaseModel{
     public void setGates(List<Gate> gates) {
         this.gates = gates;
     }
-
-    private String address ;
-    private List<ParkingFloor> parkingFloors ;
-    private List<Gate> gates;
 
 }
